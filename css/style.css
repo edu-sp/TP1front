@@ -1,14 +1,14 @@
 *{
-
     padding: 0;
     margin: 0;
 }
 
-/* estilo para las card  de proyectos  */
+/* estilo para la navbar  */
 
 .navbar img{
     max-width: 90px;
 }
+
 .bg-dark2{
  background-color: rgb(78, 75, 75);
 }
@@ -22,5 +22,39 @@ border-radius: 0.8rem;
 
 .btn-comprar {
   color: rgb(26, 184, 26);
+}
+
+/* estilo para el carusel */
+
+.carousel-background{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+ .bg-b1{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ba1.jpg);
+     width: 100%;
+ }
+ .bg-b2{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ba2.jpg);
+     width: 100%;
+ }
+ .bg-b3{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ba3.jpg);
+     width: 100%;
+ }
+
+ .box{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    background-color: aquamarine
+}
+
+.bg-honolulu{
+    background-image: url(../img/honolulu.jpg);
+    height: 25rem;
+    background-size: cover;
 }
 
