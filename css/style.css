@@ -62,4 +62,15 @@ border-radius: 0.8rem;
     background-color: rgb(121, 197, 46);
 
 }
+.btn-enviar:hover{
+    background-color: rgb(96, 170, 22);
 
+}
+
+.navbar-brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between important;
+    list-style: none;
+    gap: 2rem;
+}
