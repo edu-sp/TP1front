@@ -97,14 +97,14 @@
         </div>
         <!-- sección cards -->
         <section class="my-3">
-            <div class="contaier text-center">
+            <div class="container text-center">
                 <h2 class=" fw-light fs-5 text-uppercase">conoce alos 
                     <span class=" d-block  fs-1 fw-bold text-uppercase">oradores</span>
                 </h2>
             </div>
             <div class="row mx-5 mb-3 g-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                  <div class="card w-75 m-auto  ">
+                  <div class="card w-75 m-auto h-100 ">
                     <img src="img/steve.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <span class="badge bg-warning text-dark">Javascript</span>
@@ -115,7 +115,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                  <div class="card w-75 m-auto" >
+                  <div class="card w-75 m-auto h-100" >
                     <img src="img/bill.jpg" class="card-img-top" alt="...">                 
                     <div class="card-body">
                         <span class="badge bg-warning text-dark">Javascript</span>
@@ -126,7 +126,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                  <div class="card w-75 m-auto">
+                  <div class="card w-75 m-auto h-100">
                     <img src="img/ada.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <span class="badge bg-warning text-dark">Javascript</span>
@@ -157,12 +157,40 @@
                     </p>
                     <button class="btn btn-outline-light p-2 rounded">conóce más</button>
               </div>
-
             </div>
 
         </section>
-        <section>
-            hola
+        <section class="row">
+          <div class="text-center mt-3">
+            <h2 class="text-uppercase fs-5 fw-light">conviértete en un <span class="text-uppercase d-block fs-1 fw-bold">orador</span></h2>          
+            <p>
+              Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!
+            </p>
+          </div>
+          <div class="  mx-auto col-lg-6 col-sm-9">
+            <form class="row g-2 ">
+              <div class="col-md-6">
+                <label for="inputName" class="form-label"></label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+              </div>
+              <div class="col-md-6">
+                <label for="inputLastname" class="form-label"></label>
+                <input type="text" class="form-control" id="inputLastname" placeholder="Apellido">
+              </div>
+              <div class="col-md-12">
+                <label for="inputEmail" class="form-label"></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que queres hablar?" rows="3"></textarea>
+              </div>
+              
+            
+              <div class="col-12 pb-3">
+                <button type="submit" class=" btn btn-enviar w-100 py-2 text-white">Enviar</button>
+              </div>
+            </form>
         </section>
     </main>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script> 
