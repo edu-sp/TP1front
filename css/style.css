@@ -67,10 +67,12 @@ border-radius: 0.8rem;
 
 }
 
-.navbar-brand{
+.footer-nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between important;
     list-style: none;
-    gap: 1rem;
+    margin-bottom: 0 important;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
 }

@@ -21,16 +21,16 @@
                     <a class="nav-link active" aria-current="page" href="#">la conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">los oradores</a>
+                    <a class="nav-link" href="#oradores">los oradores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">lugar y fecha</a>
+                    <a class="nav-link" href="#lugar">lugar y fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">conviertete en orador</a>
+                    <a class="nav-link" href="#formulario">conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link btn-comprar " href="#">compra tickets</a>
+                    <a class="nav-link btn-comprar " href="#formulario">compra tickets</a>
                   </li>
                 </ul>
               </div>
@@ -96,13 +96,13 @@
             </button>
         </div>
         <!-- sección cards -->
-        <section class="my-3">
+        <section class="my-3" id="oradores">
             <div class="container text-center">
                 <h2 class=" fw-light fs-5 text-uppercase">conoce alos 
                     <span class=" d-block  fs-1 fw-bold text-uppercase">oradores</span>
                 </h2>
             </div>
-            <div class="row mx-5 mb-3 g-4">
+            <div class="row mx- mb-3 g-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card w-75 m-auto h-100 ">
                     <img src="img/steve.jpg" class="card-img-top" alt="...">
@@ -141,7 +141,7 @@
           
         </section>
 
-        <section>  <!-- sección conoce mas-->
+        <section id="lugar">  <!-- sección conoce mas-->
             <div class="row h-25">
                 <div class="col-lg-6 col-sm-12 bg-honolulu"></div>
                 <div class="col-lg-6 col-sm-12 bg-dark p-5">
@@ -159,7 +159,7 @@
             </div>
         </section>
      <!-- sección formulario-->
-        <section class="row">
+        <section class="row" id="formulario">
           <div class="text-center mt-3">
             <h2 class="text-uppercase fs-5 fw-light">conviértete en un <span class="text-uppercase d-block fs-1 fw-bold">orador</span></h2>          
             <p>
@@ -181,10 +181,13 @@
                 <label for="inputEmail" class="form-label"></label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="Email">
               </div>
-              <div class="mb-3">
+              <div class="">
                 <label for="exampleFormControlTextarea1" class="form-label"></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que queres hablar?" rows="3"></textarea>
-              </div>          
+              </div> 
+              <div class="text-secondary">
+                <p>Recuerda incluir un título para tu charla.</p>
+              </div>    
               <div class="col-12 pb-3">
                 <button type="submit" class=" btn btn-enviar w-100 py-2 text-white">Enviar</button>
               </div>
@@ -192,11 +195,9 @@
           </div>
         </section>
     </main>
-    <footer>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark2 px-5">
-
-          <div class="w-100" >
-            <ul class="navbar-brand ">
+    <footer class="p-3  bg-dark2 ">
+          <div class="w-100 text-white" >
+            <ul class="footer-nav ">
               <li class="nav-item ">
                 <a class="nav-link" href="#">la conferencia</a>
               </li>
@@ -223,7 +224,6 @@
               </li>
             </ul>
           </div>
-      </nav>
     </footer>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script> 
 </body>
