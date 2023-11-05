@@ -15,17 +15,15 @@ categoria.addEventListener("change", () => {
 
 
 btnresumen .addEventListener("click", () => {
+  total=0;
   switch (option) {
     case "Estudiante":
-      total = 0;
       total = cantidad.value * valorTicket * 0.2;
       break;
     case "Trainee":
-      total = 0;
       total = cantidad.value * valorTicket * 0.5;
       break;
     case "Junior":
-      total = 0;
       total = cantidad.value * valorTicket * 0.85;
       break;
     default:
